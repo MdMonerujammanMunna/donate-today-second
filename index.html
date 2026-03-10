@@ -9,11 +9,16 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--font-awesome  -->
+    <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <!-- Lobster font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!-- google font  -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -25,7 +30,7 @@
             font-family: "Inter", sans-serif;
         }
 
-        .footer {
+        .footerre {
             font-family: "Lobster", sans-serif;
         }
 
@@ -37,6 +42,7 @@
 </head>
 
 <body class="container mx-auto">
+    <!-- hero banner section -->
     <header class="mb-[130px]">
         <section class="flex flex-col-reverse md:flex-row items-center justify-between">
             <div class="">
@@ -59,137 +65,149 @@
         </section>
     </header>
 
-    <section class="flex flex-col items-center justify-center text-center mb-[130px]">
-        <div>
-            <h1 class="text-[2.8rem] font-bold mb-5">Donate Today</h1>
-            <p class=" text-[18px] leading-7 max-w-[670px] mb-12">Lorem ipsum dolor sit amet, usu cu esse possit
+    <!-- main section -->
+    <main>
+        <!-- Amount section -->
+        <section class="flex flex-col items-center justify-center text-center mb-[130px]">
+            <div>
+                <h1 class="text-[2.8rem] font-bold mb-5">Donate Today</h1>
+                <p class=" text-[18px] leading-7 max-w-[670px] mb-12">Lorem ipsum dolor sit amet, usu cu esse possit
+                    referrentur,
+                    at eam falli deterruisset. No duo populo
+                    animal noluisse, enim</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-5 mb-[60px] ">
+                <div
+                    class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
+                    <h1 class="text-[30px] font-bold text-[var(--taka-color)]">100TK</h1>
+                </div>
+                <div
+                    class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
+                    <h1 class="text-[30px] font-bold text-[var(--taka-color)]">200TK</h1>
+                </div>
+                <div
+                    class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
+                    <h1 class="text-[30px] font-bold text-[var(--taka-color)]">500TK</h1>
+                </div>
+                <div
+                    class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
+                    <h1 class="text-[30px] font-bold text-[var(--taka-color)]">1000TK</h1>
+                </div>
+                <div
+                    class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
+                    <h1 class="text-[30px] font-bold text-[var(--taka-color)]">5000TK</h1>
+                </div>
+
+            </div>
+            <div>
+                <input type="text"
+                    class="input input-lg mb-[10px] text-[18px] text-[#B3B3B3] outline-none neutral-content focus:border-[var(--main-color)] focus:border-[2px]"
+                    placeholder="Other Amount (Taka)">
+                <button
+                    class="btn border-none shadow-none outline-none bg-[var(--main-color)] font-semibold text-white">Donate
+                    Now</button>
+            </div>
+        </section>
+
+        <!-- Our Donate Plan section-->
+        <section class="flex flex-col mb-[50px] justify-center items-center text-center">
+            <h1 class="text-[45px] font-bold mb-[20px]">Our Donate Plan</h1>
+            <p class="text-[18px] text-[#B3B3B3] max-w-[700px] ">Lorem ipsum dolor sit amet, usu cu esse possit
                 referrentur,
-                at eam falli deterruisset. No duo populo
-                animal noluisse, enim</p>
-        </div>
-        <div class="flex flex-col md:flex-row justify-between items-center gap-5 mb-[60px] ">
-            <div
-                class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
-                <h1 class="text-[30px] font-bold text-[var(--taka-color)]">100TK</h1>
+                at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+        </section>
+        <!-- card section  -->
+        <section class="flex flex-col md:flex-row gap-[24px] justify-between items-center mb-[130px]">
+            <div class="py-[60px] px-[23px] bg-[#4F9DA610] max-w-[360px] rounded-md">
+                <img src="./icons/food.png" alt="" class="mb-[30px]">
+                <h1 class="text-[24px] font-semibold mb-[16px]">Food for a family</h1>
+                <p class="w-[300px] text-[#B3B3B3]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit
+                    officia consequat
+                    duis enim velit mollit.</p>
             </div>
-            <div
-                class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
-                <h1 class="text-[30px] font-bold text-[var(--taka-color)]">200TK</h1>
+            <div class="py-[60px] px-[23px] bg-[#FF595910] max-w-[360px] rounded-md">
+                <img src="./icons/shelter.png" alt="" class="mb-[30px]">
+                <h1 class="text-[24px] font-semibold mb-[16px]">Shelter for a family</h1>
+                <p class="w-[300px] text-[#B3B3B3]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit
+                    officia consequat
+                    duis enim velit mollit.</p>
             </div>
-            <div
-                class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
-                <h1 class="text-[30px] font-bold text-[var(--taka-color)]">500TK</h1>
+            <div class="py-[60px] px-[23px] bg-[#FFF4D6] max-w-[360px] rounded-md">
+                <img src="./icons/Frame-1.png" alt="" class="mb-[30px]">
+                <h1 class="text-[24px] font-semibold mb-[16px]">Education for a child</h1>
+                <p class="w-[300px] text-[#B3B3B3]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit
+                    officia consequat
+                    duis enim velit mollit.</p>
             </div>
-            <div
-                class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
-                <h1 class="text-[30px] font-bold text-[var(--taka-color)]">1000TK</h1>
-            </div>
-            <div
-                class="px-[25px] py-[35px] cursor-pointer  border-2 border-neutral-content  hover:border-2 hover:border-[var(--main-color)] hover:bg-base-200 rounded-[10px]">
-                <h1 class="text-[30px] font-bold text-[var(--taka-color)]">5000TK</h1>
-            </div>
+        </section>
 
-        </div>
-        <div>
-            <input type="text"
-                class="input input-lg mb-[10px] text-[18px] text-[#B3B3B3] outline-none neutral-content focus:border-[var(--main-color)] focus:border-[2px]"
-                placeholder="Other Amount (Taka)">
+        <!--  donation section-->
+        <section
+            class="md:flex text-center md:text-left items-center justify-center md:justify-between space-y-[54px] mb-[130px]">
+            <div class="flex-1 mr-[20px]">
+                <h1 class="text-[45px] font-bold mb-[20px]">No More Homeless,<br> No More Hunger</h1>
+                <p class="mb-[20px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse possit
+                    referrentur, at eam falli deterruisset. No duo populo
+                    animal noluisse, enim</p>
+                <p class="mb-[30px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse possit
+                    referrentur, at eam falli deterruisset.</p>
+                <button
+                    class=" btn border-none shadow-none outline-none bg-[var(--main-color)] font-semibold text-white">How
+                    to
+                    Contribute?</button>
+            </div>
+            <div class="flex-1">
+                <img src="./images/one.png" alt="" class="rounded-[10px]">
+            </div>
+        </section>
+        <!-- suvive section -->
+        <section
+            class="md:flex flex-row-reverse text-center md:text-left items-center justify-center md:justify-between space-y-[54px] mb-[130px]">
+            <div class="flex-1 mr-[20px]">
+                <h1 class="text-[45px] font-bold mb-[20px]">Give Someone's Life<br> By Giving Of Yours</h1>
+                <p class="mb-[20px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse
+                    possit
+                    referrentur, at eam falli deterruisset. No duo populo
+                    animal noluisse, enim</p>
+                <p class="mb-[30px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse possit
+                    referrentur, at eam falli deterruisset.</p>
+                <button
+                    class=" btn border-none shadow-none outline-none bg-[var(--main-color)] font-semibold text-white">How
+                    to
+                    Contribute?</button>
+            </div>
+            <div class="flex-1">
+                <img src="./images/two.png" alt="" class="rounded-[10px]">
+            </div>
+        </section>
+
+        <!-- Get My Updates section -->
+        <section class="flex flex-col mb-[50px] justify-center items-center text-center">
+            <h1 class="text-[45px] font-bold mb-[20px]">Get My Updates</h1>
+            <p class="text-[18px] text-[#B3B3B3] max-w-[700px] ">Lorem ipsum dolor
+                sit amet, usu
+                cu esse possit referrentur, at
+                eam falli
+                deterruisset. No duo populo animal
+                noluisse, enim</p>
+        </section>
+        <!-- Email input section -->
+        <section class="flex justify-center items-center px-[128px] py-[76px] bg-[#FFF4D6] mb-[130px] ">
+            <input type="email" placeholder="Enter your E-mail"
+                class="py-[14px] pl-[17px] bg-base-300 font-medium outline-none border-none rounded-l-[5px]">
             <button
-                class="btn border-none shadow-none outline-none bg-[var(--main-color)] font-semibold text-white">Donate
-                Now</button>
-        </div>
-    </section>
+                class="px-[45px] py-[14px] bg-[var(--main-color)] font-medium text-white rounded-r-[5px] cursor-pointer">Subscribe</button>
+        </section>
+    </main>
 
-    <!-- Our Donate Plan section-->
-    <section class="flex flex-col mb-[50px] justify-center items-center text-center">
-        <h1 class="text-[45px] font-bold mb-[20px]">Our Donate Plan</h1>
-        <p class="text-[18px] text-[#B3B3B3] max-w-[700px] ">Lorem ipsum dolor sit amet, usu cu esse possit referrentur,
-            at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-    </section>
-    <!-- card section  -->
-    <section class="flex flex-col md:flex-row gap-[24px] justify-between items-center mb-[130px]">
-        <div class="py-[60px] px-[23px] bg-[#4F9DA610] max-w-[360px] rounded-md">
-            <img src="./icons/food.png" alt="" class="mb-[30px]">
-            <h1 class="text-[24px] font-semibold mb-[16px]">Food for a family</h1>
-            <p class="w-[300px] text-[#B3B3B3]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                sint. Velit
-                officia consequat
-                duis enim velit mollit.</p>
-        </div>
-        <div class="py-[60px] px-[23px] bg-[#FF595910] max-w-[360px] rounded-md">
-            <img src="./icons/shelter.png" alt="" class="mb-[30px]">
-            <h1 class="text-[24px] font-semibold mb-[16px]">Shelter for a family</h1>
-            <p class="w-[300px] text-[#B3B3B3]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                sint. Velit
-                officia consequat
-                duis enim velit mollit.</p>
-        </div>
-        <div class="py-[60px] px-[23px] bg-[#FFF4D6] max-w-[360px] rounded-md">
-            <img src="./icons/Frame-1.png" alt="" class="mb-[30px]">
-            <h1 class="text-[24px] font-semibold mb-[16px]">Education for a child</h1>
-            <p class="w-[300px] text-[#B3B3B3]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                sint. Velit
-                officia consequat
-                duis enim velit mollit.</p>
-        </div>
-    </section>
-
-    <!--  donation section-->
-    <section
-        class="md:flex text-center md:text-left items-center justify-center md:justify-between space-y-[54px] mb-[130px]">
-        <div class="flex-1 mr-[20px]">
-            <h1 class="text-[45px] font-bold mb-[20px]">No More Homeless,<br> No More Hunger</h1>
-            <p class="mb-[20px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse possit
-                referrentur, at eam falli deterruisset. No duo populo
-                animal noluisse, enim</p>
-            <p class="mb-[30px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse possit
-                referrentur, at eam falli deterruisset.</p>
-            <button
-                class=" btn border-none shadow-none outline-none bg-[var(--main-color)] font-semibold text-white">How
-                to
-                Contribute?</button>
-        </div>
-        <div class="flex-1">
-            <img src="./images/one.png" alt="" class="rounded-[10px]">
-        </div>
-    </section>
-    <!-- suvive section -->
-    <section
-        class="md:flex flex-row-reverse text-center md:text-left items-center justify-center md:justify-between space-y-[54px] mb-[130px]">
-        <div class="flex-1 mr-[20px]">
-            <h1 class="text-[45px] font-bold mb-[20px]">Give Someone's Life<br> By Giving Of Yours</h1>
-            <p class="mb-[20px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse
-                possit
-                referrentur, at eam falli deterruisset. No duo populo
-                animal noluisse, enim</p>
-            <p class="mb-[30px] text-[18px] text-[#B3B3B3]">Lorem ipsum dolor sit amet, usu cu esse possit
-                referrentur, at eam falli deterruisset.</p>
-            <button
-                class=" btn border-none shadow-none outline-none bg-[var(--main-color)] font-semibold text-white">How to
-                Contribute?</button>
-        </div>
-        <div class="flex-1">
-            <img src="./images/two.png" alt="" class="rounded-[10px]">
-        </div>
-    </section>
-
-    <!-- Get My Updates section -->
-    <section class="flex flex-col mb-[50px] justify-center items-center text-center">
-        <h1 class="text-[45px] font-bold mb-[20px]">Get My Updates</h1>
-        <p class="text-[18px] text-[#B3B3B3] max-w-[700px] ">Lorem ipsum dolor
-            sit amet, usu
-            cu esse possit referrentur, at
-            eam falli
-            deterruisset. No duo populo animal
-            noluisse, enim</p>
-    </section>
-    <!-- Email input section -->
-    <section class="flex justify-center items-center px-[128px] py-[76px] bg-[#FFF4D6] mb-[130px] ">
-        <input type="email" placeholder="Enter your E-mail"
-            class="py-[14px] pl-[17px] bg-base-300 font-medium outline-none border-none rounded-l-[5px]">
-        <button
-            class="px-[45px] py-[14px] bg-[var(--main-color)] font-medium text-white rounded-r-[5px] cursor-pointer">Subscribe</button>
-    </section>
+    <!-- Footer section -->
+    <footer class="bg-[#0B0D17] py-[45px] grid justify-center items-center text-center">
+        <h1 class="footerre text-[#FF5959] text-[36px] mb-[24px]">Be Humble</h1>
+        <p class="text-white">I'm gonna do it</p>
+    </footer>
 </body>
 
 </html>
